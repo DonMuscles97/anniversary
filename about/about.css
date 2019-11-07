@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/* code for the nav bar */
+.navbar{
+    margin: 10px;
+    float: left;
+    list-style: none;   
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.navbar:hover{
+    color: black;
+    font-size: 40px;
+}
+
+.nav-head{
+    margin-left: 550px;
+}
+
+/* code for back ground color */
+body{
+  background-color: #FFF5EE;
+ 
+}
+/* code for header */
+.other-head{
+  background: url(D:/code/anniversary/index/rose-head.jpg);
+  background-size: 30%;
+  padding: 40px;
+  color: #FFF5EE;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+     
+}
+
+.bigdiv{
+  border: 2px solid crimson;
+  margin-left: 350px;
+  margin-top: 150px;
+  margin-right: 350px;
+  padding-top: 20px;
+  height: 800px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+}
+
+.heading1{
+  margin-top: 0px;
+  margin-left: 350px;
+  font-family: 'Dancing Script', cursive;
+  color: crimson;
+  
+  
+
+}
+
+.text1{
+  margin-top: 10px;
+  margin-left: 100px;
+  text-indent: 60px;
+  margin-right: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+
+.heading2{
+  margin-left: 30%;
+  margin-top: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: crimson;
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+
+  .nav-head{
+    margin-left: 320px;
+  }
+
+  .bigdiv{
+    margin-left: 150px;
+    margin-right: 150px;
+  
+  }
+
+  .heading1{
+    margin-left: 310px;
+  }
+
+}

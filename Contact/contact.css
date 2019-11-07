@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: #FFF5EE;
+ 
+}
+
+/*This is the CSS form my header  for the index page*/
+.other-head{
+  background: url(D:/code/anniversary/index/rose-head.jpg);
+  background-size: 30%;
+  padding: 40px;
+  color: #FFF5EE;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+     
+}
+
+.navbar{
+  margin: 10px;
+  float: left;
+  list-style: none;   
+  text-decoration: none;
+  text-align: center;
+  color: crimson;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  
+}
+
+.navbar:hover{
+  color: black;
+  font-size: 40px;
+}
+
+.nav-head{
+  margin-left: 550px;
+  
+}
+
+.info{
+  margin-top: 150px;
+  margin-left: 240px;
+  border: 2px solid crimson;
+  margin-right: 100px;
+  text-align: center; 
+  border-radius: 30px;;
+}
+
+.gmail{
+  background: transparent;
+  
+}
+
+.insta{
+  margin-left: 60px;
+}
+
+.snap{
+  border-radius: 30px;
+  margin-left: 70px;
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+
+  .nav-head{
+    margin-left: 250px;
+  }
+
+  .info{
+    margin-left: 175px;
+  }
+
+
+
+}
