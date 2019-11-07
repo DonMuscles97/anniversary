@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* code for back ground color */
+body{
+  background-color: #FFF5EE;
+ 
+}
+/* code for header */
+.other-head{
+  background: url(D:/code/anniversary/index/rose-head.jpg);
+  background-size: 30%;
+  padding: 40px;
+  color: #FFF5EE;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+     
+}
+
+/* this is the code that splits the page into a grid */
+.grid{
+  display: grid;
+  grid-template-columns: 300px auto;
+  
+}
+
+/* the code for the layout of the sidebar */
+.item1{
+  border: 2px solid black;
+  margin: 5px;
+  text-align: center;
+  height: 600px;
+  overflow: scroll;
+  
+  
+
+}
+
+.sidebar{
+  margin: 50px 0px;
+  list-style: none;   
+  text-decoration: none;
+  text-align: center;
+  color: crimson;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  
+}
+
+.sidebar:hover{
+  color: black;
+  font-size: 40px;
+}
+
+/* centers the navigation bar */
+.nav-head{
+  margin-left: 350px;
+}
+
+/* code for the hover of the nav */
+.navbar:hover{
+  color: black;
+  font-size: 40px;
+}
+
+/* code for the nav bar itself */
+.navbar{
+  margin: 10px;
+  float: left;
+  list-style: none;   
+  text-decoration: none;
+  text-align: center;
+  color: crimson;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+ 
+}
+
+/* the code for the layout of the navbar */
+.item2{
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 10px;
+ 
+  
+}
+
+.time-head{
+  margin-top: 200px;
+  margin-right: 70px;
+  color: crimson;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.link{
+  text-decoration: none;
+  color: crimson;
+  transition: 1s;
+}
+
+.link:hover{
+  color: black;
+}
+
+.date-lay{
+  float: left;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+.dates{
+  border: 2px solid black;
+  padding: 30px;
+  text-decoration: none;
+  color: crimson;
+  font-size: 20px;
+  transition: 1s;
+}
+
+.dates:hover{
+  font-size: 40;
+  background-color: crimson;
+  color: #FFF5EE;
+}
+
+.text{
+  margin-top: 30px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px 100px;
+  text-indent: 60px;
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+
+  .nav-head{
+    margin-left: 175px;
+  }
+
+  .dates{
+    font-size: 12px;
+    padding: 15px;
+  }
+
+
+}

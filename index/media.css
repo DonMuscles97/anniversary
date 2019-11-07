@@ -1,0 +1,147 @@
+/* this is the code for the media quiries for the index page for */
+
+/* smart phones */
+
+@media(max-width: 500px) {
+
+  .category{
+    float: none;
+    margin-left: 100px;
+    
+    
+  }
+
+  .header-img{
+    background-size: 50%;
+    width: 180%;
+  }
+
+  .jjvideo{
+    width: 202%;
+    margin-left: 0px;
+  }
+
+  .line{
+    width:202%;
+  }
+
+  .main-cat{
+    margin-left: 20px;
+  }
+
+  .cat-head{
+    margin-left: 90px;
+    font-size: 56px;
+  }
+
+  .month6{
+    height: 486px;
+    width: 354.5px;
+    border-radius: 200px;
+    margin-left: 60px;
+  }
+
+  #p1{
+    font-size: 36px;
+    
+    padding: 0px;
+    width: 500px;
+    
+  }
+
+  .garden{
+    height: 378px;
+    width: 504px;
+    border-radius: 200px;
+    margin-bottom: 60px;
+  }
+
+  .art{
+    height: 506px;
+    width: 379.5px;
+    border-radius: 200px;
+    margin-left: 60px;
+  }
+
+  .fancy{
+    height: 378px;
+    width: 504px;
+    border-radius: 200px;
+    margin-bottom: 70px;
+  }
+
+  #p2{
+    font-size: 36px;
+    padding: 0px;
+    width: 500px;
+    
+    
+  }
+
+  .main-footer{
+    margin-left: 20px;
+    font-size: 36px;
+    margin-top: 300px;
+  }
+
+  
+}
+
+
+@media(min-width: 769px) and (max-width: 1024px) {
+
+  .header-img{
+    background-size: 25%;
+    width: 101%;
+  } 
+
+  .jjvideo{
+    margin-left: 14%;
+  }
+
+  .line{
+    width: 108.5%;
+  }
+  
+  .category{
+    width: 22%;
+    margin: 0px 11px;
+    padding: 30px 0px;
+  }
+
+  .main-cat{
+    margin-left: 80px;
+  }
+
+  .month6{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    max-width: 70%;
+    height: auto;
+  }
+
+  .garden{
+    margin-bottom: 17px;
+    margin-right: 0px;
+    max-width: 92%;
+    height: auto;
+  }
+
+  .art{
+    margin-left: 5px;
+    max-width: 70%;
+    height: auto;
+  }
+
+  .fancy{
+    margin-right: 0px;
+    margin-bottom: 15px;
+    max-width: 90%;
+    height: auto;
+  }
+
+  .main-footer{
+    margin-top: 800px;
+  }
+  
+}
