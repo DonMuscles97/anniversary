@@ -1,0 +1,34 @@
+/* code for the picture gallary */
+
+/* over arching div that centers the gallery on the page */
+.pics{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+/* Styles for the pictures for example the space beween each image */
+.pics img{
+    transition: 1s;
+    padding:4px;
+    
+}
+
+/* controls what happens when you hover over an image */
+.pics img:hover{
+    filter: grayscale(100);
+    transform: scale(1.1)
+}
+
+/* Styles for the pictures for example the space beween each video */
+.pics video{
+    transition: 1s;
+    padding:4px;
+    
+}
+
+/* styles for what happens when you hover over a video */
+.pics video:hover{
+    filter: grayscale(100);
+    transform: scale(1.1)
+}
